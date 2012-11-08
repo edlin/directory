@@ -1,6 +1,6 @@
 # Directory Generator
 
-Requirements:
+Dependencies:
  * nodejs
  * npm
  * mongodb
@@ -22,8 +22,8 @@ Generate the pdfs from latex files:
 
 Convention:
  * Pictures are located in the assets directory
-    * Single member names are in <first_name>_<last_name> lowercase format
-    * Family member names are in <last_name1>_and_<first_name2>_<last_name> lowercase format
+    * Single member names are in \<first\_name\>\_\<last\_name\> lowercase format
+    * Family member names are in \<last\_name1\>\_and\_\<first\_name2\>\_\<last\_name\> lowercase format
  * Blank dividers should be on the even pages
  * The entire directory must be a multiple of 4
  * For booklet.tex, the signature should be the number of pages in the directory.pdf
