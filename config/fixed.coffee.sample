@@ -1,0 +1,6 @@
+module.exports =
+  name: 'LOREM'
+  sub_name: 'dolor sit amet'
+  verse_ref: 'Lorem ipsum'
+  full_verse: 'Vestibulum rhoncus mattis nisl quis interdum. Curabitur fringilla urna a mauris pellentesque eu feugiat risus volutpat. Nullam dolor arcu, aliquam.'
+  type: 'Praesent sed'

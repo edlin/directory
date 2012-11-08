@@ -1,0 +1,21 @@
+{
+  "name": "directory",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "mongodb": "~1.1.11",
+    "async": "~0.1.22",
+    "mustache": "~0.7.0"
+  },
+  "readmeFilename": "README.md",
+  "description": "Generates a directory --------------------------",
+  "main": "main.coffee",
+  "devDependencies": {},
+  "scripts": {
+    "install": "npm install coffee-script -g",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Edward Lin",
+  "license": "BSD"
+}

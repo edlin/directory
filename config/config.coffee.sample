@@ -1,0 +1,16 @@
+# specify output file
+
+
+module.exports = 
+  db:
+    name: 'test'
+    host: 'localhost'
+    port: 27017 
+    user: 'monman'
+    pwd: 'password'
+    mem_col: 'members'
+    fam_col: 'families'
+
+  assets: __dirname+'/../assets'
+  output_dir: __dirname+'/../output'
+
