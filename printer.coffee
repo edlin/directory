@@ -65,7 +65,7 @@ exports.print = (opts, callback) ->
       actual_pages = these_pages = Math.ceil(opts.families.length / 2)
       opts.page += these_pages - 1
       opts.img = ->
-        this.name.toLowerCase().replace(/\ /g, '_')+'.jpg'
+        this.name.toLowerCase().replace(/\ /g, '_')
       opts.clean_address = ->
         helpers.sanitize(this.address)
       opts.parity = ->
@@ -111,7 +111,7 @@ exports.print = (opts, callback) ->
         actual_pages + Math.floor(this.index/4) + 1
       opts.img = ->
         name = this.first_name+' '+this.last_name
-        name.toLowerCase().replace(/\ /g, '_')+'.jpg'
+        name.toLowerCase().replace(/\ /g, '_')
       opts.clean_address = ->
         helpers.sanitize(this.address)
       opts.formatted_birthday = ->
