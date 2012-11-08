@@ -18,7 +18,7 @@
 \centering
 \includegraphics[width=\paperwidth,height=\paperheight,
 {{=<% %>=}}
-keepaspectratio]{<%&assets%>/background.png}%
+keepaspectratio]{<%&assets%>/background}%
 <%={{ }}=%>
 \vfill
 }}}
@@ -42,7 +42,7 @@ keepaspectratio]{<%&assets%>/logo}%
 \centering
 \includegraphics[width=\paperwidth,height=\paperheight,
 {{=<% %>=}}
-keepaspectratio]{<%&assets%>/backbackground.png}%
+keepaspectratio]{<%&assets%>/backbackground}%
 <%={{ }}=%>
 \vfill
 }}}
